@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:m_booking/app/on-boarding/onboarding.dart';
+import 'package:m_booking/app/on-boarding/onboarding_screen.dart';
 import 'package:m_booking/app/routes/route.dart';
 import 'package:m_booking/app/routes/route_app.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.black,
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.black,
-        )
+        ),
       ),
       home: OnboardingScreen(),
     );
